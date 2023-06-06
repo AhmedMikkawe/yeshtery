@@ -96,6 +96,22 @@ class Footer extends Component {
                 </div>
               </div>
             </div>
+            <div className="bottom-footer">
+              <div className="left">
+                <p>© 2021 yeshtery, all rights reserved.</p>
+              </div>
+              <div className="right">
+                <div className="cashes">
+                  <img src="/images/cash-logo.png" alt="" />
+                  <img src="/images/visa-logo.png" alt="" />
+                  <img src="/images/master-logo.png" alt="" />
+                </div>
+                <div className="nas-logo">
+                  <span>Powered By</span>
+                  <img src="/images/nas-logo.svg" alt="" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
