@@ -10,6 +10,7 @@ import imageFour from "../images/product-4.jpg";
 import ProductDetails from "../components/ProductDetails";
 import SimilarProducts from "../components/SimilarProducts";
 import CartModal from "../components/CartModal";
+import Footer from "../components/Footer";
 class Product extends Component {
   constructor(props) {
     super(props);
@@ -115,6 +116,7 @@ class Product extends Component {
           />
         )}
         <SimilarProducts />
+        <Footer />
       </div>
     );
   }
