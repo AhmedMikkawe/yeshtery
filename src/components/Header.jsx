@@ -1,6 +1,9 @@
 import { Component } from "react";
 
 class Header extends Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
     return (
       <div className="container">
@@ -13,9 +16,9 @@ class Header extends Component {
           </form>
           <img src="/images/adidas.svg" alt="" className="center-logo" />
           <div className="header__right">
-            <button>
+            <button onClick={this.props.showCart}>
               <span className="icon cart-icon">
-                <span className="counter">0</span>
+                <span className="counter">{this.props.counter}</span>
                 <img src="/images/cart-2.svg" alt="" />
               </span>
               <span>Cart</span>
