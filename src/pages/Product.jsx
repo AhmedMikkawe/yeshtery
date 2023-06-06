@@ -1,4 +1,4 @@
-import { Component } from "react";
+import { Component, lazy } from "react";
 import Topbar from "../components/Topbar";
 import Header from "../components/Header";
 import Menu from "../components/Menu";
@@ -8,8 +8,8 @@ import imageTwo from "../images/product-2.jpg";
 import imageThree from "../images/product-3.jpg";
 import imageFour from "../images/product-4.jpg";
 import ProductDetails from "../components/ProductDetails";
-import CartModal from "../components/CartModal";
 import SimilarProducts from "../components/SimilarProducts";
+import CartModal from "../components/CartModal";
 class Product extends Component {
   constructor(props) {
     super(props);

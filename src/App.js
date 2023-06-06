@@ -1,7 +1,11 @@
-import Product from "./pages/Product";
-
+import { lazy, Suspense } from "react";
+const Product = lazy(() => import("./pages/Product"));
 function App() {
-  return <Product />;
+  return (
+    <Suspense fallback={<p>loading...</p>}>
+      <Product />
+    </Suspense>
+  );
 }
 
 export default App;
