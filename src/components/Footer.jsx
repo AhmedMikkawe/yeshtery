@@ -8,7 +8,7 @@ class Footer extends Component {
           <div className="footer-content">
             <div className="top-footer">
               <div className="right">
-                <img src="/images/footer-logo.svg" alt="" />
+                <img src="images/footer-logo.svg" alt="" />
                 <p>
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                   diam nonummy nibh euismod tincidunt ut laoreet dolore magna
@@ -102,13 +102,13 @@ class Footer extends Component {
               </div>
               <div className="right">
                 <div className="cashes">
-                  <img src="/images/cash-logo.png" alt="" />
-                  <img src="/images/visa-logo.png" alt="" />
-                  <img src="/images/master-logo.png" alt="" />
+                  <img src="images/cash-logo.png" alt="" />
+                  <img src="images/visa-logo.png" alt="" />
+                  <img src="images/master-logo.png" alt="" />
                 </div>
                 <div className="nas-logo">
                   <span>Powered By</span>
-                  <img src="/images/nas-logo.svg" alt="" />
+                  <img src="images/nas-logo.svg" alt="" />
                 </div>
               </div>
             </div>

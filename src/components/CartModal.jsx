@@ -21,7 +21,7 @@ class CartModal extends Component {
         <div className="cart-modal" onClick={(e) => e.stopPropagation()}>
           <div className="cart-header">
             <button className="close" onClick={this.handleShowCart}>
-              <img src="/images/close.svg" alt="" />
+              <img src="images/close.svg" alt="" />
             </button>
             <h3>My Cart</h3>
           </div>

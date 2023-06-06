@@ -21,9 +21,9 @@ class ProductDetails extends Component {
     let stars = [];
     for (let i = 0; i < 5; i++) {
       if (i < Math.floor(this.props.rate)) {
-        stars.push(<img key={i} src="/images/filledStar.svg" alt="" />);
+        stars.push(<img key={i} src="images/filledStar.svg" alt="" />);
       } else {
-        stars.push(<img key={i} src="/images/emptyStar.svg" alt="" />);
+        stars.push(<img key={i} src="images/emptyStar.svg" alt="" />);
       }
     }
     return stars;
@@ -49,7 +49,7 @@ class ProductDetails extends Component {
   render() {
     return (
       <div className="product-details">
-        <img src="/images/adidas.svg" alt="" width="60" />
+        <img src="images/adidas.svg" alt="" width="60" />
         <h1>{this.props.title}</h1>
         <span className="category">Men</span>
         <div className="rates">

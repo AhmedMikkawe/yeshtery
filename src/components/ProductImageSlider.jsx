@@ -42,13 +42,13 @@ class ProductImageSlider extends Component {
         />
         <div className="product-slider__controllers">
           <button onClick={this.handlePrevClick}>
-            <img src="/images/left-arr.svg" alt="" />
+            <img src="images/left-arr.svg" alt="" />
           </button>
           {this.props.images.map((image) => {
             return <img key={image} src={image} alt="" className="img-thumb" />;
           })}
           <button onClick={this.handleNextClick}>
-            <img src="/images/right-arr.svg" alt="" />
+            <img src="images/right-arr.svg" alt="" />
           </button>
         </div>
       </div>

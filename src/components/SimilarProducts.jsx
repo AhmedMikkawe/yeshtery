@@ -14,15 +14,15 @@ class similarProducts extends Component {
           <h5>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h5>
           <div className="price">
             <div className="price-number">9,999 LE</div>
-            <img src="/images/adidas.svg" alt="" />
+            <img src="images/adidas.svg" alt="" />
           </div>
           <div className="rate">
             <span>
-              <img src="/images/filledStar.svg" alt="" />
-              <img src="/images/filledStar.svg" alt="" />
-              <img src="/images/filledStar.svg" alt="" />
-              <img src="/images/filledStar.svg" alt="" />
-              <img src="/images/emptyStar.svg" alt="" />
+              <img src="images/filledStar.svg" alt="" />
+              <img src="images/filledStar.svg" alt="" />
+              <img src="images/filledStar.svg" alt="" />
+              <img src="images/filledStar.svg" alt="" />
+              <img src="images/emptyStar.svg" alt="" />
             </span>
             <span>4.2 of 5</span>
           </div>
