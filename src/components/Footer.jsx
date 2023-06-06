@@ -43,7 +43,7 @@ class Footer extends Component {
                   />
                   <button type="submit">
                     Subscribe
-                    <img src="/images/send.svg" alt="" width="20" />
+                    <img src="images/send.svg" alt="" width="20" />
                   </button>
                 </form>
                 <div className="links">
@@ -76,19 +76,19 @@ class Footer extends Component {
                   <div className="external">
                     <ul>
                       <li>
-                        <img src="/images/face.svg" alt="" />
+                        <img src="images/face.svg" alt="" />
                         <span>/YESHTERY</span>
                       </li>
                       <li>
-                        <img src="/images/linked.svg" alt="" />
+                        <img src="images/linked.svg" alt="" />
                         <span>/YESHTERY</span>
                       </li>
                       <li>
-                        <img src="/images/insta.svg" alt="" />
+                        <img src="images/insta.svg" alt="" />
                         <span>/YESHTERY</span>
                       </li>
                       <li>
-                        <img src="/images/twitter.svg" alt="" />
+                        <img src="images/twitter.svg" alt="" />
                         <span>/YESHTERY</span>
                       </li>
                     </ul>
