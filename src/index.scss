@@ -667,6 +667,20 @@ header {
     font-size: 1.5em;
   }
   .products {
+    scrollbar-width: thin;
+
+    &::-webkit-scrollbar {
+      height: 5px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: #d9d9d9;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: var(--secondary-color);
+    }
+
     margin-top: 25px;
     display: flex;
     justify-content: space-between;
@@ -724,20 +738,6 @@ header {
 @media screen and (min-width: 1024px) {
   .similarProducts {
     .products {
-      scrollbar-width: thin;
-
-      &::-webkit-scrollbar {
-        height: 5px;
-      }
-
-      &::-webkit-scrollbar-track {
-        background: #d9d9d9;
-      }
-
-      &::-webkit-scrollbar-thumb {
-        background: var(--secondary-color);
-      }
-
       .product {
         h5 {
           font-size: 1em;
