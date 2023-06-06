@@ -9,7 +9,7 @@ import imageThree from "../images/product-3.jpg";
 import imageFour from "../images/product-4.jpg";
 import ProductDetails from "../components/ProductDetails";
 import CartModal from "../components/CartModal";
-
+import SimilarProducts from "../components/SimilarProducts";
 class Product extends Component {
   constructor(props) {
     super(props);
@@ -114,6 +114,7 @@ class Product extends Component {
             total={this.state.total}
           />
         )}
+        <SimilarProducts />
       </div>
     );
   }
